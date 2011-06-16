@@ -1,0 +1,19 @@
+{
+  "author": "Grgur Grisogono <grguru@gmail.com>",
+  "name": "node-extjs4",
+  "main": "./node-extjs4.js",
+  "description": "Ext JS 4 framework for node.js",
+  "version": "0.1.1",
+  "directories" : {
+	"examples" : "./examples"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grgur/node-extjs4"
+  },
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
