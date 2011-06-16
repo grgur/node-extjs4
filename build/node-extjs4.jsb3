@@ -1,0 +1,351 @@
+{
+    "projectName": "Ext JS 4 - Node.js support",
+     "licenseText": "\nThis file is part of Ext JS 4\n\nCopyright (c) 2011 Sencha Inc\n\nContact:  http://www.sencha.com/contact\n\nGNU General Public License Usage\nThis file may be used under the terms of the GNU General Public License version 3.0 as published by the Free Software Foundation and appearing in the file LICENSE included in the packaging of this file.  Please review the following information to ensure the GNU General Public License version 3.0 requirements will be met: http://www.gnu.org/copyleft/gpl.html.\n\nIf you are unsure which license is appropriate for your use, please contact the sales department at http://www.sencha.com/contact.\n",
+    "packages": [
+        {
+            "name": "Foundation",
+            "target": "pkgs/foundation.js",
+            "id": "foundation",
+            "files": [
+				{
+                    "path": "../",
+                    "name": "node-overrides.js"
+                },
+                {
+                    "path": "../src/core/src/",
+                    "name": "Ext.js"
+                },
+                {
+                    "path": "../src/core/src/version/",
+                    "name": "Version.js"
+                },
+                {
+                    "path": "../src/core/src/lang/",
+                    "name": "String.js"
+                },
+                {
+                    "path": "../src/core/src/lang/",
+                    "name": "Number.js"
+                },
+                {
+                    "path": "../src/core/src/lang/",
+                    "name": "Array.js"
+                },
+                {
+                    "path": "../src/core/src/lang/",
+                    "name": "Function.js"
+                },
+                {
+                    "path": "../src/core/src/lang/",
+                    "name": "Object.js"
+                },
+                {
+                    "path": "../src/core/src/lang/",
+                    "name": "Date.js"
+                },
+                {
+                    "path": "../src/core/src/class/",
+                    "name": "Base.js"
+                },
+                {
+                    "path": "../src/core/src/class/",
+                    "name": "Class.js"
+                },
+                {
+                    "path": "../src/core/src/class/",
+                    "name": "ClassManager.js"
+                },
+                {
+                    "path": "../src/core/src/class/",
+                    "name": "Loader.js"
+                },
+                {
+                    "path": "../src/core/src/lang/",
+                    "name": "Error.js"
+                }
+            ]
+        },
+        {
+            "name": "Extras",
+            "target": "pkgs/extras.js",
+            "id": "extras",
+            "files": [
+                {
+                    "path": "../src/core/src/misc/",
+                    "name": "JSON.js"
+                },
+                {
+                    "path": "../src/core/src/",
+                    "name": "Ext-more.js"
+                },
+                {
+                    "path": "../src/core/src/util/",
+                    "name": "Format.js"
+                },
+                {
+                    "path": "../src/core/src/util/",
+                    "name": "TaskManager.js"
+                },
+                {
+                    "path": "../src/core/src/",
+                    "name": "Support.js"
+                }
+            ]
+        },
+        {
+            "name": "DOM",
+            "target": "pkgs/dom.js",
+            "id": "dom",
+            "files": [
+                {
+                    "path": "../src/core/src/dom/",
+                    "name": "DomHelper.js"
+                },
+                {
+                    "path": "../src/core/src/dom/",
+                    "name": "DomQuery.js"
+                },
+                {
+                    "path": "../src/core/src/dom/",
+                    "name": "Element.js"
+                },
+                {
+                    "path": "../src/core/src/dom/",
+                    "name": "Element.traversal.js"
+                },
+                {
+                    "path": "../src/core/src/dom/",
+                    "name": "Element.insertion.js"
+                },
+                {
+                    "path": "../src/core/src/dom/",
+                    "name": "Element.style.js"
+                },
+                {
+                    "path": "../src/core/src/dom/",
+                    "name": "Element.fx.js"
+                },
+                {
+                    "path": "../src/core/src/dom/",
+                    "name": "Element.anim.js"
+                },
+                {
+                    "path": "../src/core/src/dom/",
+                    "name": "Element.static.js"
+                },
+                {
+                    "path": "../src/core/src/dom/",
+                    "name": "CompositeElementLite.js"
+                },
+                {
+                    "path": "../src/core/src/util/",
+                    "name": "DelayedTask.js"
+                },
+                {
+                    "path": "../src/core/src/util/",
+                    "name": "Event.js"
+                },
+                {
+                    "path": "../src/core/src/",
+                    "name": "EventManager.js"
+                },
+                {
+                    "path": "../src/core/src/",
+                    "name": "EventObject.js"
+                },
+                {
+                    "path": "../src/core/src/dom/",
+                    "name": "Element.static-more.js"
+                },
+                {
+                    "path": "../src/core/src/dom/",
+                    "name": "Element-more.js"
+                },
+                {
+                    "path": "../src/core/src/dom/",
+                    "name": "Element.alignment.js"
+                },
+                {
+                    "path": "../src/core/src/dom/",
+                    "name": "Element.position.js"
+                },
+                {
+                    "path": "../src/core/src/dom/",
+                    "name": "Element.scroll.js"
+                },
+                {
+                    "path": "../src/core/src/dom/",
+                    "name": "Element.fx-more.js"
+                },
+                {
+                    "path": "../src/core/src/dom/",
+                    "name": "Element.keys.js"
+                },
+                {
+                    "path": "../src/core/src/dom/",
+                    "name": "CompositeElementLite-more.js"
+                },
+                {
+                    "path": "../src/core/src/dom/",
+                    "name": "CompositeElement.js"
+                }
+            ]
+        },
+		{
+			"name": "Node",
+			"target": "ext-nodejs-deps.js",
+			"id":	"node",
+			"files": [
+				{
+                    "path": "../src/util/",
+                    "name": "Observable.js"
+                },{
+                    "path": "../src/util/",
+                    "name": "HashMap.js"
+                },
+				{
+                    "path": "../src/state/",
+                    "name": "Provider.js"
+                },{
+                    "path": "../src/state/",
+                    "name": "Manager.js"
+                },{
+                    "path": "../src/state/",
+                    "name": "Stateful.js"
+                }, {
+                    "path": "../src/util/",
+                    "name": "Sorter.js"
+                },{
+                    "path": "../src/util/",
+                    "name": "Sortable.js"
+                },{
+                    "path": "../src/data/",
+                    "name": "SortTypes.js"
+                },{
+                    "path": "../src/data/",
+                    "name": "Types.js"
+                },
+				{
+                    "path": "../src/util/",
+                    "name": "Filter.js"
+                },{
+                    "path": "../src/util/",
+                    "name": "Sorter.js"
+                },
+				{
+                    "path": "../src/data/",
+                    "name": "Connection.js"
+                },{
+                    "path": "../src/",
+                    "name": "Ajax.js"
+                },{
+                    "path": "../src/util/",
+                    "name": "Inflector.js"
+                },{
+                    "path": "../src/util/",
+                    "name": "AbstractMixedCollection.js"
+                },
+                {
+                    "path": "../src/util/",
+                    "name": "MixedCollection.js"
+                },{
+                    "path": "../src/data/",
+                    "name": "ResultSet.js"
+                },{
+                    "path": "../src/data/",
+                    "name": "Batch.js"
+                },{
+                    "path": "../src/data/reader/",
+                    "name": "Reader.js"
+                },
+				{
+                    "path": "../src/data/writer/",
+                    "name": "Writer.js"
+                },
+                {
+                    "path": "../src/data/reader/",
+                    "name": "Json.js"
+                },
+                {
+                    "path": "../src/data/writer/",
+                    "name": "Json.js"
+                },
+				{
+                    "path": "../src/data/",
+                    "name": "Errors.js"
+                },{
+                    "path": "../src/data/",
+                    "name": "Operation.js"
+                },
+                {
+                    "path": "../src/data/",
+                    "name": "validations.js"
+                },
+				{
+                    "path": "../src/",
+                    "name": "AbstractManager.js"
+                },
+				{
+                    "path": "../src/data/",
+                    "name": "Association.js"
+                },
+                {
+                    "path": "../src/data/",
+                    "name": "ResultSet.js"
+                }, {
+                    "path": "../src/data/proxy/",
+                    "name": "Proxy.js"
+                },
+                {
+                    "path": "../src/data/proxy/",
+                    "name": "Server.js"
+                },
+                {
+                    "path": "../src/data/proxy/",
+                    "name": "Ajax.js"
+                },{
+                    "path": "../src/data/proxy/",
+                    "name": "Rest.js"
+                },{
+                    "path": "../src/data/",
+                    "name": "SortTypes.js"
+                },{
+                    "path": "../src/",
+                    "name": "ModelManager.js"
+                },
+                {
+                    "path": "../src/data/",
+                    "name": "Errors.js"
+                },{
+                    "path": "../src/data/",
+                    "name": "BelongsToAssociation.js"
+                },{
+                    "path": "../src/data/",
+                    "name": "HasManyAssociation.js"
+                },{
+                    "path": "../src/",
+                    "name": "PluginManager.js"
+                },{
+                    "path": "../src/data/",
+                    "name": "Field.js"
+                },{
+                    "path": "../src/data/",
+                    "name": "Model.js"
+                }
+			]
+		}
+    ],
+    "builds": [
+		{
+            "name": "Node",
+            "target": "ext-node.js",
+            "compress": false,
+            "packages": [
+                "foundation",
+                "extras",
+                "dom",
+				"node"
+            ]
+        }
+    ]
+}

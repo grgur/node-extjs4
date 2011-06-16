@@ -1,0 +1,7 @@
+Put this jsb3 file into your build/ dir of extjs4 distro. 
+Use jsbuilder as usual to generate extjs4 build Node.JS.
+
+node-overrides.js contains necessary overrides that make the difference from browser (DOM) to Node.JS
+
+Right now cut to fit Ext JS 4.0.2a. Dependencies and file locations are subject to change.
+
